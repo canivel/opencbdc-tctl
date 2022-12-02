@@ -35,7 +35,7 @@ func writeSelfSignedCert() error {
 			Province:           []string{"MA"},
 			Locality:           []string{"Boston"},
 			Organization:       []string{"OpenCBDC Test Controller"},
-			CommonName:         "opencbdc-tctl.dev.local",
+			CommonName:         "test-controller.opencbdc.dccanive.people.aws.dev",
 		},
 		NotBefore:             time.Now(),
 		NotAfter:              time.Now().Add(time.Hour * 24 * 3650),
